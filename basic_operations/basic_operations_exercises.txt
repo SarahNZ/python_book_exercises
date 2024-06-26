@@ -1,0 +1,59 @@
+# Question 1
+print('Sarah' + ' ' + 'Stenfert')
+
+# Question 2
+>>> number = 4936
+
+# Ones Place Value
+>>> ones = number % 10
+>>> print(ones)
+6
+
+# Tens Place Value
+>>> number = number // 10
+>>> print(number)
+493
+
+>>> tens = number % 10
+>>> print(tens)
+3
+
+# Hundreds Place Value
+>>> number = number // 10
+>>> print(number)
+hundreds = number % 10
+>> print(hundreds)
+9
+
+# Thousands Place Value
+>>> thousands = number // 10
+>>> print(thousands)
+4
+
+# Question 3
+>>> print('5' + '10')
+Outputs 510 because the print function treats the numbers as strings, so 
+concatenates the string characters rather than adding them as an arithmetic
+operation
+
+# Question 4
+>>> print(int('5') + int('10'))
+15
+
+# Question 5
+Yes, an index (out of range) error will occur, as there is no item at index 3 in the list foo
+
+# Question 6
+>>> 'foo' == 'Foo'
+False, as the two strings are not the same
+
+# Question 7
+>>> int('3.1415')
+Raises a value error as the string is not a valid integer (whole number)
+
+# Question 8
+>>> '12' < '9'
+True, as the strings will be compared character by character starting on the 
+left. 1 is smaller than 9.
+
+
