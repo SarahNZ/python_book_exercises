@@ -1,0 +1,54 @@
+# Exercise 1: Variable Names
+Name            Classification    Reason
+index           Idiomatic         (I thought it was an illegal reserved word)           
+CatName         Non-idiomatic     Pascal Case should be used for class names only
+lazy_dog        Idiomatic
+quick_Fox       Non-idiomatic     All alphabetical characters should be lower Case
+1stCharacter    Illegal (I thought it was non-idiomatic)    Variable name should not start with a number
+operand2        Idiomatic         (I thought there should be an underscore between the d and the 2)
+BIG_NUMBER      Non-idiomatic     All caps (screaming snake case) should only be used for constant names
+Pi symbol       Non-idiomatic     Pi is not an ASCII character 
+                                  (I got this wrong. I new it wasn't a good variable name but I didn't know why)
+
+# Exercise 2: Function Names
+Same answers as in exercise 1, as function names follow the same conventions as variable names in Python
+
+# Exercise 3: Constant Names
+index           Non-idiomatic       Should be all upper case
+CatName         Non-idiomatic       Should be all upper case
+snake_case      Non-idiomatic       Should be all upper case
+LAZY_DOG3       Idiomatic
+1ST             Illegal             Should not start with a digit
+operand2        Non-idiomatic       Should be all upper case
+BIG_NUMBER      Idiomatic
+Symbol that looks like a square 'n' Non-idiomatic   Not an ASCII character
+
+# Exercise 4: Class Names
+index           Non-idiomatic       Needs to start with upper case
+CatName         Idiomatic
+Lazy_Dog        Non-idiomatic       Should not have an underscore between them
+1ST             Illegal             Should not start with a digit
+operand2        Non-idiomatic       Should start with a capital letter
+BigNumber3      Idiomatic
+Square 'n' and i Non-idiomatic      Square 'n' is not an ASCII character
+
+# Exercise 7
+Victor is greeted 3 times, then Nina is greeted 3 times because the
+string constant NAME was reassigned from Victor to Nina. Constants
+are not meant to be changed, but this is not enforced in Python.
+
+# Exercises 8 and 9 are in balance.Python
+
+# Exercise 10
+obj = 42
+# Question          Action on variable (reassign, mutate or do neither)?
+obj = 'ABcd'        Reassignment (correct)
+obj.upper()         Neither (I wasn't sure)
+obj = obj.lower()   Reassignment (I got it wrong)
+print(len(obj))     Neither. Just prints the property of an object. Doesn't change it
+obj = list(obj)     Reassignment (I got this wrong)
+obj.pop()           Mutation
+obj[2] = 'X'        Mutation
+obj.sort()          Mutation
+set(obj)            Neither. The object hasn't changed
+obj = tuple(obj)    Reassignment
